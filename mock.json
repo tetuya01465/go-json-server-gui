@@ -1,0 +1,23 @@
+[
+  {
+      "path": "/hello",
+      "method": "GET",
+      "contentType": "application/json",
+      "statusCode": "200",
+      "response": "{\"name\": \"hello\"}"
+  },
+  {
+      "path": "/world",
+      "method": "GET",
+      "contentType": "application/json",
+      "statusCode": "200",
+      "response": "{\"name\": \"world\"}"
+  },
+  {
+      "path": "/foo",
+      "method": "GET",
+      "contentType": "text/html",
+      "statusCode": "200",
+      "response": "<html><body>test</body></html>"
+  }
+]
